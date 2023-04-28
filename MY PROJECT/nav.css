@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+
+@media only screen and (max-width:1000px){
+    body{
+        background-color: rgb(11, 74, 74);
+    }
+}
+
+@media only screen and (max-width:800px){
+    body{
+        background-color: rgb(21, 123, 81);
+    }
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(75, 13, 30);
+    }
+}
+
+
+
+/* 0-----------max-width:200-------------max-width:400---------------max-width:600-----------------max-width:800-----------min-width:1000  min-width:1000 */

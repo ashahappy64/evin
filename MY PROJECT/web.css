@@ -1,0 +1,331 @@
+*{
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+body{
+    background-color:rgb(236, 218, 218);
+    border:rgb(1, 1649, 227) ;
+    width: 99%;
+    background-size: cover;
+
+}
+.nav_bar{
+    background-color:rgb(6, 168, 4927);
+    width: 15%;
+    height: 500px;
+    list-style: none;
+    top: 55px;
+    position: fixed;
+}
+.nav_bar a{
+    background-color:rgb(17, 168, 249);
+    text-decoration: none;
+    color:rgb(220, 214, 214):
+    padding: 5px;
+    margin-top: 80px;
+    width: 100px;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.nav_bar a:hover{
+    background-color: black(20, 24, 27);
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+}
+#schol_name{
+    background-color:rgb(17, 168, 249);
+    width: 100%;
+    height: 50px;
+    border-radius: 20px 0px 20px 0px;
+    top: 0;
+    position: fixed;
+}
+
+#schol_name h1{
+    background-color:white;
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 3px;
+    position: fixed;
+    margin-left: 30%;
+    text-align: center;
+}
+.school_picture{
+    margin-left: 17%;
+    border: 1px solid rgb(46, 62, 112) ;
+    width: 99%;
+    background-size: cover;
+}
+.school_picture img{
+   
+    width: 99%;
+    height: 500px;
+    border-radius: 10px;
+}
+.header_container{
+    display: flex;
+    flex-direction: row;
+}
+#about{
+    width: 81.5%;
+    height: 300px;
+    background-color:rgb(255, 247, 247);
+    margin-left: 18%;
+    display: flex;
+    flex-direction: row;
+}
+#school_life{
+    width: 30%;
+    height:250px;
+    background-color: rgb(231, 230, 230);
+    margin-left: 15px;
+    margin-top: 19px;
+    border-radius: 0px 0px 50px 0px; 
+
+}
+#clubs{
+    width: 30%;
+    height:250px;
+    background-color: rgb(244, 227, 227)
+    ;
+    margin-left: 5px;
+    margin-left: 30px;
+    margin-top: 19px;
+    border-radius: 0px 0px 50px 0px;
+}
+
+#programs{
+    width: 30%;
+    height:250px;
+    background-color:rgb(1, 179, 255);
+    margin-left: 5px;
+    margin-left: 20px;
+    margin-top: 19px;
+    border-radius: 0px 0px 50px 0px;
+}
+.life{
+    background-color:rgb(1, 179, 255);
+    width: 90%;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.talent{
+    background-color:rgb(1, 179, 255);
+    width: 90%;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.funs{
+    background-color:rgb(1, 179, 255);
+    width: 90%;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.life h2{
+    margin-top: 3px;
+    margin-left: 25%;
+    color:black;
+   
+}
+
+.life h2:hover{
+    margin-top: 3px;
+    margin-left: 25%;
+    color:rgb(184, 61, 61);
+   
+}
+
+
+.talent h2{
+    
+    margin-top: 3px;
+    margin-left: 25%;
+    color:black;
+    
+}
+.funs h2{
+    margin-top: 3px;
+    margin-left: 35%;
+    color:black;
+        
+}
+.talent h2:hover{
+    
+    margin-top: 3px;
+    margin-left: 25%;
+    color:rgb(184, 61, 61);
+      
+}
+.funs h2:hover{
+    color:rgb(184, 61, 61);
+
+      
+}
+.life_info{
+    background-color:rgb(17, 168, 249);
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 0px 0px 50px 0px;
+}
+.life_image{
+    width: 60px;
+    height: 55px;
+    margin-left: 90px;
+    border: rgb(1, 179, 255);
+    
+ }
+.life_image img{
+    width: 50px;
+    height: 50px;
+    margin-left:3px;
+    
+
+}
+.life_data{
+ margin-left: 60px;
+ list-style: disc;
+ text-decoration: none;
+}
+.life_data li:hover{
+    width: 200px;
+    list-style: disc;
+    text-decoration: none;
+    background-color: rgb(14, 17, 14);
+    
+   }
+
+.talent_info{
+    background-color:rgb(17, 168, 249);
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 0px 0px 50px 0px;
+}
+.talent_image{
+    width: 60px;
+    height: 55px;
+    margin-left: 90px;
+    
+
+ }
+.talent_image img{
+    width: 50px;
+    height: 50px;
+    margin-left:3px;
+    
+
+}
+.talent_data{
+ margin-left: 60px;
+ list-style: disc;
+ text-decoration: none;
+}
+.talent_data li:hover{
+    width: 120px;
+    list-style: disc;
+    text-decoration: none;
+    background-color: rgb(14, 17, 14);
+   
+   }
+   
+
+
+.funs_info{
+     background-color:rgb(17, 168, 249);
+     width: 90%;
+     height: 200px;
+     margin-top: 10px;
+     border-radius: 0px 0px 50px 0px;
+}
+.funs_image{
+    width: 60px;
+    height: 55px;
+    margin-left: 90px;
+  
+  
+ }
+.funs_image img{
+    width: 50px;
+    height: 50px;
+    margin-left:3px;
+    
+
+}
+.funs_data{
+ margin-left: 60px;
+ list-style: disc;
+ text-decoration: none;
+}
+.funs_data li:hover{
+    width: 120px;
+    list-style: disc;
+    text-decoration: none;
+    background-color: rgb(14, 17, 14);
+   
+   }
+   
+
+   #contact{
+    width: 81.5%;
+    height: 300px;
+    background-color: black;
+    margin-left: 18%;
+    display: flex;
+    flex-direction: row;
+}
+#contact_us{
+    width: 50%;
+    height: 250px;
+    background-color: blue;
+    border-radius: 50px 0px 50px 0px; 
+    margin-left: 7%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+
+.cont h2{
+background-color: black;
+margin-left: 40px;
+color: white;
+}
+form{
+    background-color:black;
+    
+}
+.contact_box form{
+    margin-top: 30px;
+    
+    
+}
+.contact_box form input{
+    margin-left: 30px;
+    padding: 6px;
+    position: relative;
+}
+.btn a{
+    background-color: black;
+    width: 50px;
+    height: 60px;
+    margin-left: 50%;
+}
+.Academic{
+    width: 50px;
+    height: 50px;
+    margin-left:3px;
+    
+
+}
+
+
